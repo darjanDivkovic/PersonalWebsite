@@ -72,10 +72,12 @@ const ReachOutForm = () => {
         <ValidationError prefix="Message" field="message" errors={state.errors} />
 
         <div className="flex justify-center mt-5 sm:mt-6">
-          <button type="submit" disabled={state.submitting}>
-            <CTAButton text={state.submitting ? "Sending..." : "Send message"} />
-          </button>
-        </div>
+          <CTAButton
+            text={state.submitting ? "Sending..." : "Send message"}
+            type="submit"
+            disabled={state.submitting}
+        />
+</div>
       </form>
     </section>
   );
