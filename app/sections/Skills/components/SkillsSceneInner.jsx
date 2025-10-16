@@ -9,7 +9,7 @@ import * as THREE from "three";
 const ICONS = [
   null, null, null, null, null, null, null, null,
   '/icons/FigmaIcon.png', '/icons/SaaSIcon.png', '/icons/HTMLIcon.png', '/icons/CSSIcon.png', '/icons/NodeIcon.png', null, null, null,
-  '/icons/VueIcon.png', '/icons/CucumberIcon.png', '/icons/CypressIcon.png', '/icons/javaScriptIcon.png', '/icons/JestIcon.png', '/icons/NextIcon.png', '/icons/UIUXIcon.png', null, null,
+  '/icons/VueIcon.png', '/icons/CucumberIcon.png', '/icons/CypressIcon.png', '/icons/JavaScriptIcon.png', '/icons/JestIcon.png', '/icons/NextIcon.png', '/icons/UIUXIcon.png', null, null,
   '/icons/MySQLIcon.png', '/icons/TailwindIcon.png', '/icons/PostgreIcon.png', '/icons/ReactIcon.png', '/icons/ExpressIcon.png',
 ];
 
