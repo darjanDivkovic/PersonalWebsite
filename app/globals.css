@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-raleway: var(--font-raleway);
+  --font-modernist: var(--font-modernist);
+  --font-pacifico: var(--font-pacifico);
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* Scrollbar Begin */
+::-webkit-scrollbar-track {
+  background: #000; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 8px;
+  border: 1px solid #000;
+  backdrop-filter: blur(6px);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.25) #000;
+}
+/* Scrollbar End */
+
+.glowbtn::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  right: 0;
+  top: 0;
+  border-radius: 12px;
+  z-index: -1;
+  box-shadow: 5px 0px 40px #5E3CF4;
+}
