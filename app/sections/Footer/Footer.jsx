@@ -4,11 +4,6 @@ const Footer = () => {
   return (
     <footer className="relative w-full font-modernist px-6 sm:px-10 py-12 md:py-20 overflow-hidden">
       {/* blurred background accent */}
-      <img
-        src="/images/Backdrop.png"
-        alt="Backdrop"
-        className="absolute right-[-20%] bottom-[-30%] w-[250px] h-[250px] border opacity-40 pointer-events-none -z-10"
-      />
 
       <div className="flex flex-col md:flex-row justify-between gap-12 md:gap-0">
         {/* left section */}
