@@ -64,19 +64,19 @@ export default function LandingPage() {
   </section>
 
   <section>
-    <div className="relative w-screen mt-[10vh]">
+    <div className="relative w-screen mt-[15vh]">
       <SkillsSection />
     </div>
   </section>
 
   <section>
-    <div className="relative w-screen mt-[-7vh] xl:mt-0">
+    <div className="relative w-screen mt-[150px] xl:mt-12">
       <RecommendationsSection />
     </div>
   </section>
 
   <section>
-    <div className="relative w-screen px-[15%] mt-[7%]">
+    <div className="relative w-screen boredpx-[15%] mt-[9vh]">
       <ReachOutFormSection />
     </div>
   </section>
