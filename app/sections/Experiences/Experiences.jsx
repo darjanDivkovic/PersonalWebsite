@@ -9,7 +9,6 @@ const experiences = [
     years: "2023 - Current",
     site: "https://kinnectx.com/",
     image: "/images/KinnectProject.png",
-    glow: "from-[#8F78F3]/40 to-[#5E3CF4]/10",
   },
   {
     name: "Pequity",
@@ -17,7 +16,6 @@ const experiences = [
     years: "2021 - 2023",
     site: "https://pequity.com/",
     image: "/images/PequityProject.png",
-    glow: "from-[#5E3CF4]/40 to-[#8F78F3]/10",
   },
   {
     name: "InnoScripta",
@@ -25,7 +23,6 @@ const experiences = [
     years: "2021 - 2023",
     site: "https://www.innoscripta.com/en",
     image: "/images/InnoScriptaProject.png",
-    glow: "from-[#8F78F3]/40 to-[#43338F]/10",
   },
 ];
 

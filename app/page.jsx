@@ -1,4 +1,5 @@
 'use client';
+
 import HeroSection from "./sections/Hero/Hero";
 import ExperiencesSection from "./sections/Experiences/Experiences";
 import SkillsSection from "./sections/Skills/Skills";
@@ -34,17 +35,7 @@ export default function LandingPage() {
     );
   });
 
-  // optional smooth parallax effect on background elements
-  gsap.utils.toArray("[data-parallax]").forEach((el) => {
-    gsap.to(el, {
-      yPercent: 20,
-      ease: "none",
-      scrollTrigger: {
-        trigger: el,
-        scrub: true,
-      },
-    });
-  });
+
 }, []);
 
   return (
@@ -70,13 +61,13 @@ export default function LandingPage() {
   </section>
 
   <section>
-    <div className="relative w-screen mt-[150px] xl:mt-12">
+    <div className="relative w-screen mt-[150px] xl:mt-[15vh]">
       <RecommendationsSection />
     </div>
   </section>
 
   <section>
-    <div className="relative w-screen boredpx-[15%] mt-[9vh]">
+    <div className="relative w-screen px-[15%] mt-[9vh]">
       <ReachOutFormSection />
     </div>
   </section>
