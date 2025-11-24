@@ -11,6 +11,7 @@ import FullScreenLoader from "./shared/components/FullScreenLoader";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import { useEffect } from "react";
+import FlowiseBubble from "./FlowiseBubble";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -77,6 +78,8 @@ export default function LandingPage() {
       <FooterSection />
     </div>
   </section>
+
+  <FlowiseBubble />
 </div>
   );
 }
