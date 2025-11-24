@@ -54,7 +54,7 @@ export default function FlowiseBubble() {
         <div className="fixed bottom-24 right-6 z-50 w-96 h-[500px] bg-white rounded-2xl shadow-2xl border border-gray-200 flex flex-col">
           <div className="flex items-center justify-between p-4 bg-blue-600 text-white rounded-t-2xl">
             <h3 className="font-semibold flex items-center gap-2">
-              <Bot size={20} /> CV Assistant
+              <Bot size={20} /> Kandor Assistant
             </h3>
             <button onClick={() => setOpen(false)} className="hover:bg-white/20 rounded-lg p-1">
               <X size={20} />
@@ -93,7 +93,7 @@ export default function FlowiseBubble() {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 placeholder="Ask me anything..."
-                className="flex-1 px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:border-blue-500"
+                className="flex-1 px-4 py-3 text-[#000] border border-gray-300 rounded-xl focus:outline-none focus:border-blue-500"
                 disabled={loading}
               />
               <button
